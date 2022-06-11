@@ -1,4 +1,4 @@
-# Drawing Program
+# Terminal Drawing Program by NodeJs
 
 ## Description
 
@@ -37,7 +37,7 @@ After the above command, execute a commmand like below
 npm start
 ```
 
-![Program snapshot](./docs/program.png "Program snapshot")
+![Program snapshot](./docs/program.jpg "Program snapshot")
 
 ### Run the test cases
 
@@ -131,3 +131,7 @@ const canvasData = [
 
 #### How to get the coordinate can be filled or not?
 It's initial value and has not filled.
+
+## In the future
+* Reuse existing print results
+* Prevent canvasdata from being arbitrarily modified
