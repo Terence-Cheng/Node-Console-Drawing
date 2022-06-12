@@ -102,6 +102,8 @@ npm run build
 
 4. It can draw line or reactangle again in coordinates that are filled with color.
 
+5. If the coordinate of line, reactangle or filling outside of Canvas, It will not be painted without errors.
+
 ## Explanation of main logics
 
 ![Main logics process](./docs/logic_process.jpg "Main logics process")
