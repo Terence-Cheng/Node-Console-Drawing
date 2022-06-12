@@ -102,7 +102,7 @@ npm run build
 
 4. It can draw line or reactangle again in coordinates that are filled with color.
 
-5. If the coordinate of line, reactangle or filling outside of Canvas, It will not be painted without errors.
+5. If the coordinates of line, reactangle or filling outside of Canvas, they will not be painted without any errors.
 
 ## Explanation of main logics
 
@@ -116,9 +116,17 @@ npm run build
 
 ```javascript
 const canvasData = [
-  [{
-    draw: draw-value,
-  }]
+  [
+    { draw: draw-value }, // x = 0, y = 0
+    { draw: draw-value }, // x = 1, y = 0
+    { draw: draw-value }, // x = 2, y = 0
+  ],
+  [
+    { draw: draw-value }, // x = 0, y = 1
+    { draw: draw-value }, // x = 1, y = 1 
+    { draw: draw-value }, // x = 2, y = 1
+  ],
+  // ...
 ];
 ```
 
